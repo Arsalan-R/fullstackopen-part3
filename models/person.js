@@ -23,7 +23,7 @@ const phonebookScehma = new mongoose.Schema( {
       type : String,
       minLength : 8,
       required : true,
-      match: /^\d{2,3}-\d{7,8}/
+      match: /^\d{2,3}-\d{7,}/
     }
 })
 
